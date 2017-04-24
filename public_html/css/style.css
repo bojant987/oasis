@@ -59,6 +59,12 @@
 
 body {
   font-family: "ProximaNova-Regular", sans-serif;
+  height: 2000px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: 0;
 }
 
 
@@ -68,20 +74,178 @@ header .navbar-default {
   border: none;
   border-radius: 0;
   background: linear-gradient(to bottom, #066e6e 0%, #31ACA7 100%);
+  margin: 0;
+  /*height: 100px;*/
+}
+
+header .scroll-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #595959;
+}
+
+header .navbar-default .container {
+  position: relative;
 }
 
 header .navbar-default .navbar-brand {
   height: auto;
 }
 
+header .navbar-default .navbar-brand img {
+  height: 70px;
+}
+
+header .navbar-default .scroll-brand img {
+  height: 40px;
+  margin: 15px 0;
+}
+
+header .navbar-default .scroll-number {
+  display: inline-block;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin-top: 30px;
+  border-left: 1px solid #fff;
+  display: none;
+}
+
+header .navbar-default .scroll-btn {
+  background-color: #1bcabb !important;
+}
+
 header .navbar-default .navbar-nav>li {
-  height: 108px;
+  position: relative;
+}
+
+header .navbar-default .navbar-nav>li:nth-last-of-type(3) {
+  border-bottom: 1px solid #fff;
 }
 
 header .navbar-default .navbar-nav>li>a {
   color: #fff;
-  height: 100%;
-  line-height: 78px;
   font-size: 18px;
   font-weight: 500;
+}
+
+header .navbar-default .navbar-nav>li>a:hover+.hover {
+  display: block;
+}
+
+header .navbar-default .navbar-nav>li>a:hover, header .navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+}
+
+header .navbar-default .navbar-nav>li.signup {
+  height: auto;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+header .navbar-default .navbar-nav>li.signup a {
+  display: inline-block;
+  height: auto;
+  padding: 10px 25px;
+  background: #54acdf;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background .2s ease-in-out;
+}
+
+header .navbar-default .navbar-nav>li.signup a:hover {
+  background-color: #1ccabb;
+}
+
+header .navbar-default .navbar-nav>li.login, header .navbar-default .navbar-nav>li.signup {
+  display: inline-block;
+}
+
+header .navbar-default .navbar-nav>li.login a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin-right: 20px;
+}
+
+header .navbar-default .lang {
+  position: absolute;
+  right: 75px;
+  top: 29px;
+  display: inline-block;
+  height: 80px;
+  width: 40px;
+}
+
+header .navbar-default .lang>.lang-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 40px;
+  border: 2px solid #fff;
+  background-color: rgba(87, 87, 87, 0.7);
+  text-align: center;
+  padding-top: 22px;
+  top: 22px;
+}
+
+header .navbar-default .lang:hover>.lang-dropdown {
+  display: block;
+}
+
+header .navbar-default .lang>.lang-dropdown li {
+  margin-bottom: 10px;
+}
+
+header .navbar-default .lang>.lang-dropdown a {
+  color: #fff;
+  font-size: 12px;
+}
+
+header .navbar-default .lang>a {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #575757;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header .navbar-default .navbar-toggle {
+  border: none;
+  margin-top: 29px;
+}
+
+header .navbar-default .navbar-toggle:hover, header .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+}
+
+header .navbar-default .navbar-nav>li>.hover {
+  width: 16px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(15px);
+  display: none;
 }

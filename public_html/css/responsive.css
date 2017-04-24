@@ -1,14 +1,160 @@
 @media (min-width: 768px) {
   /* ---- global styles ---- */
   /* ---- header styles ---- */
+  header .navbar-default .scroll-brand img {
+    height: 60px;
+    margin: 5px 0;
+  }
+  header .navbar-default .scroll-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25.7px;
+  }
 }
 
 @media (min-width: 992px) {
   /* ---- global styles ---- */
   /* ---- header styles ---- */
+  header .navbar-default {
+    height: 90px;
+  }
+  header .navbar-default .navbar-nav>li {
+    height: 90px;
+    padding-top: 20px;
+    border: none;
+  }
+  header .navbar-default .navbar-nav>li:nth-last-of-type(3) {
+    border-bottom: none;
+  }
+  header .navbar-default .navbar-brand img {
+    height: 60px;
+  }
+  header .navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+  }
+  header .navbar-default .navbar-nav>li.signup {
+    margin-left: 0;
+    padding-top: 28px;
+  }
+  header .navbar-default .navbar-nav>li.login, header .navbar-default .navbar-nav>li.signup {
+    display: block;
+  }
+  header .navbar-default .navbar-nav>li.signup a {
+    padding: 5px 10px;
+  }
+  header .navbar-default .navbar-nav>li.login a {
+    padding: 15px;
+    margin-right: 55px;
+    border-right: 1px solid #fff;
+  }
+  header .navbar-default .lang {
+    padding-top: 25px;
+    right: 15px;
+    top: 0;
+  }
+  header .navbar-default .lang>.lang-dropdown {
+    top: 46px;
+  }
+  header .navbar-default .scroll-brand {
+    display: block;
+    float: none;
+    padding: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    transform: translateX(45px);
+  }
+  header .navbar-default .scroll-brand img {
+    margin-top: 5px;
+    height: 40px;
+  }
+  header .navbar-default .scroll-number {
+    position: absolute;
+    border-left: none;
+    top: 30px;
+    left: 0;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1200px) {
   /* ---- global styles ---- */
   /* ---- header styles ---- */
+  header .navbar-default {
+    height: 108px;
+  }
+  header .navbar-default .navbar-nav>li {
+    height: 108px;
+    padding-top: 29px;
+  }
+  header .navbar-default .navbar-brand img {
+    height: auto;
+  }
+  header .navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+  }
+  header .navbar-default .navbar-nav>li.signup {
+    margin-left: 50px;
+    padding-top: 32px;
+  }
+  header .navbar-default .navbar-nav>li.signup a {
+    padding: 10px 25px;
+  }
+  header .navbar-default .navbar-nav>li.login a {
+    padding: 15px 20px;
+    margin-right: 55px;
+  }
+  header .navbar-default .lang {
+    padding-top: 34px;
+  }
+  header .navbar-default .lang>.lang-dropdown {
+    top: 56px;
+  }
+  header .navbar-default .scroll-brand {
+    transform: translateX(43px);
+    padding-bottom: 7px;
+  }
+  header .navbar-default .scroll-brand img {
+    margin-top: 5px;
+    height: auto;
+  }
+  header .navbar-default .scroll-number {
+    position: absolute;
+    border-left: none;
+    top: 48px;
+    left: 0;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* ---- global styles ---- */
+  .container {
+    width: 1477px;
+  }
+  /* ---- header styles ---- */
+  header .navbar-default .navbar-nav>li.login a {
+    padding: 15px 40px;
+    margin-right: 80px;
+  }
+  header .navbar-default .scroll-brand {
+    float: left;
+    border-bottom: none;
+    padding: 15px;
+    transform: translateX(0);
+  }
+  header .navbar-default .scroll-brand img {
+    margin-top: 9px;
+  }
+  header .navbar-default .scroll-number {
+    display: inline-block;
+    margin-top: 31px;
+    border-left: 1px solid #fff;
+    display: none;
+    padding-left: 25px;
+    top: -6px;
+    left: 105px;
+    font-size: 27px;
+    font-weight: bold;
+  }
 }
