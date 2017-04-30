@@ -82,53 +82,18 @@
       </nav>
     </header>
     <main>
-      <section class="contact-banner text-center" style="background: #f8f8f8;">
-        <h1>Questions or comments? Get in touch.</h1>
-        <div class="line"></div>
-        <p>
-          We'd love to hear from you! Let us know what you think about Oasis or
-          any other general feedback or inquiry.
-        </p>
-        <p>As always, feel free to chat with us, tweet at us, or get in touch with support.</p>
-      </section>
-      <section class="contact-form">
-        <form data-toggle="validator" role="form">
-          <h2>Contactez-nous</h2>
-          <div class="line"></div>
-          <div class="form-group has-feedback">
-            <label for="name">Name <span>*</span></label>
-            <input type="text" name="name" value="" id="name" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group has-feedback">
-            <label for="surname">Prenom <span>*</span></label>
-            <input type="text" name="surname" value="" id="surname" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group has-feedback">
-            <label for="email">Email <span>*</span></label>
-            <input type="email" name="email" value="" id="email" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group has-feedback">
-            <label for="societe">Societe <span>*</span></label>
-            <input type="text" name="societe" value="" id="societe" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group">
-            <label for="message">Message <span>*</span></label>
-            <textarea name="message" rows="8" cols="80" id="message"></textarea>
-          </div>
-          <div class="btn-wrapper">
-            <button type="submit" class="custom-btn text-uppercase">submit</button>
-          </div>
-          <div class="line"></div>
-          <p class="telephone">Telephone: +331 45 85 47 55</p>
-        </form>
+      <section class="dashboard-app">
+        <div class="container">
+          <article class="app-header">
+            <img src="img/app-logo.png" alt="">
+            <a href="#">Settings/Administration</a>
+            <ul>
+              <li><a href="#">Hi "Laurent"</a></li>
+              <li><a href="#">Alerts</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
@@ -234,7 +199,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

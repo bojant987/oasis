@@ -21,12 +21,45 @@ $(document).ready(function() {
     }
   });
 
+  // set line width to h1 width
+  $(".contact-banner .line").width($(".contact-banner h1").width());
+
+
   // bx slider
-  $('.banner-slider').bxSlider({
-    controls: false
+  $(".banner-slider").bxSlider({
+    controls: false,
+    mode: "fade"
+  });
+
+  var productsSlider = $(".products-slider").bxSlider({
+    controls: true,
+    pager: false,
+    nextSelector: ".slide-next",
+    prevSelector: ".slide-prev",
+    nextText: "",
+    prevText: "",
+    mode: "fade"
+  });
+
+  $(".slide-next").click(function() {
+    productsSlider.goToNextSlide();
+    return false;
+  });
+
+  $(".slide-prev").click(function() {
+    productsSlider.goToPrevSlide();
+    return false;
+  });
+
+  // read more
+  $(".read-more").click(function(e) {
+    e.preventDefault();
+    $(".more-content").fadeIn();
+  });
+
+  $(".close-content").click(function(e) {
+    e.preventDefault();
+    $(".more-content").fadeOut();
   });
 
 });
-
-// set line width to h1 width
-$(".contact-banner .line").width($(".contact-banner h1").width());

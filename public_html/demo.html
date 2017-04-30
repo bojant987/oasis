@@ -82,52 +82,101 @@
       </nav>
     </header>
     <main>
-      <section class="contact-banner text-center" style="background: #f8f8f8;">
-        <h1>Questions or comments? Get in touch.</h1>
-        <div class="line"></div>
-        <p>
-          We'd love to hear from you! Let us know what you think about Oasis or
-          any other general feedback or inquiry.
-        </p>
-        <p>As always, feel free to chat with us, tweet at us, or get in touch with support.</p>
-      </section>
-      <section class="contact-form">
-        <form data-toggle="validator" role="form">
-          <h2>Contactez-nous</h2>
-          <div class="line"></div>
-          <div class="form-group has-feedback">
-            <label for="name">Name <span>*</span></label>
-            <input type="text" name="name" value="" id="name" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
+      <section class="demo">
+        <form class="demo-form" data-toggle="validator" role="form">
+          <div class="white-top"></div>
+          <div class="demo-top" style="background: #1bcabb;">
+            <img src="img/logo-small.png" alt="">
+            <h2 class="text-center">Formulaire d'inscription</h2>
+            <div class="line"></div>
+            <div class="form-group has-feedback">
+              <label for="name">Nom</label>
+                <input type="text" name="name" value="" id="name" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+                <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="surname">Prenom</label>
+              <input type="text" name="surname" value="" id="surname" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="fonction">Fonction</label>
+              <input type="text" name="fonction" value="" id="fonction" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="societe">Societe</label>
+              <input type="text" name="societe" value="" id="societe" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="effectif">Effectif</label>
+              <select name="effectif" id="effectif" required data-error="*Please select an option">
+                <option value="">select number of employees</option>
+                <option value="1to10">De 1 a 10 employes</option>
+                <option value="11to20">De 11 a 20 employes</option>
+                <option value="21to30">De 21 a 30 employes</option>
+                <option value="31to40">De 31 a 40 employes</option>
+                <option value="41to50">De 41 a 50 employes</option>
+              </select>
+              <div class="help-block with-errors"></div>
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="email">Email</label>
+              <input type="email" name="email" value="" id="email" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group has-feedback">
+              <label for="telephone">Telephone</label>
+              <input type="tel" name="telephone" value="" id="telephone" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
+              <span class="custom-feedback input-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="line"></div>
           </div>
-          <div class="form-group has-feedback">
-            <label for="surname">Prenom <span>*</span></label>
-            <input type="text" name="surname" value="" id="surname" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
+          <div class="demo-bottom" style="background:#595959;">
+            <div class="row">
+              <div class="col-sm-7">
+                <div>
+                  <input type="checkbox" name="checkbox" value="conditions" id="conditions">
+                  <span class="checkbox"></span>
+                  <label for="conditions">Conditions generales</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="checkbox" value="newsletter" id="newsletter">
+                  <span class="checkbox"></span>
+                  <label for="newsletter">Je souhatie recevoir les newsletters</label>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <button type="submit" class="custom-btn text-uppercase">next</button>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="form-footer text-center">
+              <ul class="list-inline">
+                <li>
+                  <a href="#" class="text-uppercase">mentions legale</a>
+                  <div class="hover"></div>
+                </li>
+                <li>
+                  <a href="#" class="text-uppercase">conditions d'utilisation</a>
+                  <div class="hover"></div>
+                </li>
+                <li>
+                  <a href="#" class="text-uppercase">securite de donees</a>
+                  <div class="hover"></div>
+                </li>
+              </ul>
+              <p>C 2015</p>
+            </div>
           </div>
-          <div class="form-group has-feedback">
-            <label for="email">Email <span>*</span></label>
-            <input type="email" name="email" value="" id="email" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group has-feedback">
-            <label for="societe">Societe <span>*</span></label>
-            <input type="text" name="societe" value="" id="societe" data-minlength="3" data-maxlength="25" required data-error="*Please enter 3 to 25 characters">
-            <span class="custom-feedback input-feedback" aria-hidden="true"></span>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="form-group">
-            <label for="message">Message <span>*</span></label>
-            <textarea name="message" rows="8" cols="80" id="message"></textarea>
-          </div>
-          <div class="btn-wrapper">
-            <button type="submit" class="custom-btn text-uppercase">submit</button>
-          </div>
-          <div class="line"></div>
-          <p class="telephone">Telephone: +331 45 85 47 55</p>
         </form>
       </section>
     </main>

@@ -1,6 +1,5 @@
 @media (min-width: 500px) {
   .contact-form form {
-    margin-left: 25px;
     width: 450px;
   }
   .contact-form .telephone {
@@ -21,7 +20,7 @@
     margin-top: 25.7px;
   }
   /* ---- banner styles ---- */
-  .banner .banner-slider img {
+  .banner img {
     height: auto;
   }
   .banner .banner-content h1 {
@@ -31,10 +30,20 @@
     font-size: 26px;
   }
   /* ---- what we do styles ---- */
+  .what-we-do {
+    padding-top: 30px;
+  }
   .what-we-do h2 {
     font-size: 45px;
   }
+  .what-we-do .popup-box {
+    bottom: 50%;
+    right: 85%;
+  }
   /* ---- showcase styles ---- */
+  .showcase {
+    padding-top: 100px;
+  }
   .showcase .showcase-text {
     text-align: left;
   }
@@ -52,12 +61,73 @@
   /* ---- contact banner styles ---- */
   /* ---- contact form styles ---- */
   .contact-form form {
-    margin-left: 20%;
     width: 500px;
   }
   .contact-form .telephone {
     font-size: 40px;
   }
+  .contact-form .has-success .custom-feedback {
+    top: 60%;
+    left: 54%;
+  }
+  /* ---- demo styles ---- */
+  .demo .demo-form {
+    width: 690px;
+  }
+  .demo .demo-form .demo-top, .demo .demo-form .demo-bottom {
+    padding: 15px 75px 10px;
+  }
+  .demo .demo-bottom .col-sm-5 {
+    text-align: right;
+  }
+  .demo .demo-form .demo-bottom .custom-btn {
+    margin: 0;
+  }
+  .demo .has-success .custom-feedback {
+    top: 50%;
+    left: 75%;
+    transform: translateY(-50%);
+  }
+  /* ---- products categories styles ---- */
+  .products-categories {
+    padding: 50px 0;
+  }
+  .products-categories h2 {
+    font-size: 45px;
+  }
+  .products-categories .row>.col-xs-6:nth-of-type(3) article .dots {
+    display: none;
+  }
+  .products-categories article {
+    margin-bottom: 20px;
+  }
+  .products-categories article .popup-box {
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    bottom: -25px;
+    visibility: hidden;
+    transition: 0;
+  }
+  .products-categories article .single-product {
+    width: 130px;
+    height: 130px;
+    background-size: 130px 130px !important;
+  }
+  /* ---- products showcase styles ---- */
+  .products-showcase {
+    padding: 100px 0 3px;
+  }
+  .products-showcase .wrapper {
+    width: 87%;
+  }
+  .products-showcase .slide-prev {
+    left: -65px;
+  }
+  .products-showcase .slide-next {
+    right: -65px;
+  }
+  /* ---- more content styles ---- */
 }
 
 @media (min-width: 992px) {
@@ -128,8 +198,14 @@
   }
   /* ---- banner styles ---- */
   /* ---- what we do styles ---- */
+  .what-we-do .popup-box {
+    right: 88%;
+  }
   /* ---- showcase styles ---- */
   /* ---- partners styles ---- */
+  .partners {
+    padding: 80px 0;
+  }
   /* ---- footer styles ---- */
   footer .footer-top>.container>.row>.col-md-4 {
     border-left: 1px solid #727272;
@@ -145,10 +221,52 @@
     margin-right: 0;
   }
   /* ---- contact banner styles ---- */
+  .contact-banner {
+    padding: 50px 0;
+  }
   /* ---- contact form styles ---- */
   .contact-form form {
     width: 600px;
+    padding: 50px 0;
   }
+  .contact-form .has-success .custom-feedback {
+    top: 60%;
+    left: 45%;
+  }
+  /* ---- demo styles ---- */
+  /* ---- products categories styles ---- */
+  .products-categories article .single-product {
+    width: 110px;
+    height: 110px;
+    background-size: 110px 110px !important;
+  }
+  .products-categories article .dots {
+    width: 35px;
+    right: -32px;
+  }
+  .products-categories article .popup-box {
+    bottom: -20px;
+    width: 130px;
+  }
+  .products-categories .row>.col-xs-6:nth-of-type(3) article .dots {
+    display: inline;
+  }
+  .products-categories article {
+    margin-bottom: 0;
+  }
+  /* ---- products showcase styles ---- */
+  .products-showcase .wrapper {
+    width: 90%;
+    transform: translateX(30px);
+  }
+  .products-showcase article>img {
+    margin-top: 0;
+  }
+  /* ---- more content styles ---- */
+  .more-content article {
+    margin-bottom: 0;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -204,6 +322,10 @@
     width: 50px;
   }
   /* ---- what we do styles ---- */
+  .what-we-do .popup-box {
+    bottom: 34%;
+    right: 90%;
+  }
   /* ---- showcase styles ---- */
   /* ---- partners styles ---- */
   /* ---- footer styles ---- */
@@ -221,6 +343,31 @@
   .contact-form form {
     width: 800px;
   }
+  .contact-form .has-success .custom-feedback {
+    top: 60%;
+    left: 34%;
+  }
+  /* ---- demo styles ---- */
+  /* ---- products categories styles ---- */
+  .products-categories article .single-product {
+    width: 130px;
+    height: 130px;
+    background-size: 130px 130px !important;
+  }
+  .products-categories article .dots {
+    width: 45px;
+    right: -40px;
+  }
+  .products-categories article .popup-box {
+    bottom: -25px;
+    width: 160px;
+  }
+  /* ---- products showcase styles ---- */
+  .products-showcase .wrapper {
+    width: 92%;
+    transform: translateX(30px);
+  }
+  /* ---- more content styles ---- */
 }
 
 @media (min-width: 1600px) {
@@ -254,7 +401,7 @@
     font-weight: bold;
   }
   /* ---- banner styles ---- */
-  .banner .banner-slider img {
+  .banner img {
     width: 100%;
   }
   .banner .banner-content img {
@@ -281,4 +428,12 @@
   }
   /* ---- contact banner styles ---- */
   /* ---- contact form styles ---- */
+  /* ---- demo styles ---- */
+  /* ---- products categories styles ---- */
+  /* ---- products showcase styles ---- */
+  .products-showcase .wrapper {
+    width: 100%;
+    transform: translateX(0);
+  }
+  /* ---- more content styles ---- */
 }
