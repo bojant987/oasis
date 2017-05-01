@@ -5,6 +5,9 @@
   .contact-form .telephone {
     font-size: 34px;
   }
+  .testimonials .testimonials-articles img {
+    width: 155px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -128,6 +131,70 @@
     right: -65px;
   }
   /* ---- more content styles ---- */
+  /* ---- dashboard app styles ---- */
+  .dashboard-app .app h2 {
+    font-size: 45px;
+  }
+  .dashboard-app .app-header-left {
+    float: left;
+  }
+  .dashboard-app .app-header-right {
+    float: right;
+  }
+  .dashboard-app .app-header-left a {
+    margin-left: 30px;
+  }
+  .dashboard-app .app-header-right .app-nav > li {
+    margin-right: 20px;
+  }
+  .dashboard-app .app {
+    width: 620px;
+    margin: 0 0 0 12%;
+  }
+  .dashboard-app .app .pane-top p {
+    width: 48%;
+  }
+  .dashboard-app .app .pane-bottom .left-bottom {
+    margin-bottom: 0;
+  }
+  .dashboard-app .app .pane-bottom p {
+    margin: 12px auto 51px;
+  }
+  .dashboard-app .app .app-footer ul li {
+    padding: 0 20px;
+  }
+  .dashboard-app .app .nav-tabs {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: -98px;
+    margin-top: 0;
+  }
+  .dashboard-app .app .nav-tabs li {
+    display: block;
+    margin-bottom: 0;
+  }
+  .dashboard-app .app .nav-tabs li a {
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-right: none;
+    border-radius: 7px 0 0 7px;
+    width: 100%;
+  }
+  /* ---- clients banner styles ---- */
+  /* ---- testimonials styles ---- */
+  .testimonials h2 {
+    font-size: 45px;
+  }
+  .testimonials .testimonials-articles img {
+    width: 120px;
+  }
+  /* ---- clients partners styles ---- */
+  .clients-partners h2 {
+    font-size: 45px;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -266,6 +333,26 @@
   .more-content article {
     margin-bottom: 0;
   }
+  /* ---- dashboard app styles ---- */
+  .dashboard-app .app-header-left a {
+    margin-left: 60px;
+  }
+  .dashboard-app .app-header-right .app-nav > li {
+    margin-right: 60px;
+  }
+  .dashboard-app .app {
+    width: 780px;
+    margin: 0 0 0 12%;
+  }
+  /* ---- clients banner styles ---- */
+  /* ---- testimonials styles ---- */
+  .testimonials .testimonials-articles img {
+    width: 155px;
+  }
+  /* ---- clients partners styles ---- */
+  .clients-partners a {
+    margin: 0 20px;
+  }
 
 }
 
@@ -333,7 +420,7 @@
     margin-left: 0;
   }
   footer .footer-top .nav-links ul {
-    margin-right: 30px;
+    margin-right: 25px;
   }
   footer .footer-top .nav-links ul:last-of-type {
     margin-right: 0;
@@ -368,6 +455,19 @@
     transform: translateX(30px);
   }
   /* ---- more content styles ---- */
+  /* ---- dashboard app styles ---- */
+  .dashboard-app .app {
+    width: 888px;
+  }
+  /* ---- clients banner styles ---- */
+  .clients-banner .banner-content img {
+    width: 84px;
+  }
+  /* ---- testimonials styles ---- */
+  /* ---- clients partners styles ---- */
+  .clients-partners a {
+    margin: 0 40px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -436,4 +536,11 @@
     transform: translateX(0);
   }
   /* ---- more content styles ---- */
+  /* ---- dashboard app styles ---- */
+  /* ---- clients banner styles ---- */
+  .clients-banner .banner-content img {
+    width: 84px;
+  }
+  /* ---- testimonials styles ---- */
+  /* ---- clients partners styles ---- */
 }

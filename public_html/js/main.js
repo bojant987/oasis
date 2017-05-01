@@ -62,4 +62,20 @@ $(document).ready(function() {
     $(".more-content").fadeOut();
   });
 
+  // nav tabs img swap on active
+  $(".nav-tabs li.active img").attr("src", $(".nav-tabs li.active img").attr("src").replace(".png", "-hov.png"));
+
+  $(".nav-tabs li").click(function() {
+    var orgSrc = $(this).find("img").attr("src");
+    var newSrc = orgSrc.replace(".png", "-hov.png");
+
+    document.querySelectorAll(".nav-tabs li img").forEach(function(img) {
+      if (img.src.search("hov") !== -1) {
+        img.src = img.src.replace("-hov.png", ".png");
+      }
+    });
+
+    $(this).find("img").attr("src", newSrc);
+  });
+
 });

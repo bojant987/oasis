@@ -8,48 +8,48 @@
 
 @font-face {
   font-family: 'ProximaNova-Light';
-  src: url('proxima-nova-light.eot');
-  src: url('proxima-nova-light.eot?#iefix') format('embedded-opentype'), url('proxima-nova-light.woff') format('woff'), url('proxima-nova-light.ttf') format('truetype'), url('proxima-nova-light.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-light/proxima-nova-light.eot');
+  src: url('fonts/proxima-nova-light/proxima-nova-light.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-light/proxima-nova-light.woff') format('woff'), url('fonts/proxima-nova-light/proxima-nova-light.ttf') format('truetype'), url('fonts/proxima-nova-light/proxima-nova-light.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Thin';
-  src: url('proxima-nova-thin.eot');
-  src: url('proxima-nova-thin.eot?#iefix') format('embedded-opentype'), url('proxima-nova-thin.woff') format('woff'), url('proxima-nova-thin.ttf') format('truetype'), url('proxima-nova-thin.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-thin/proxima-nova-thin.eot');
+  src: url('fonts/proxima-nova-thin/proxima-nova-thin.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-thin/proxima-nova-thin.woff') format('woff'), url('fonts/proxima-nova-thin/proxima-nova-thin.ttf') format('truetype'), url('fonts/proxima-nova-thin/proxima-nova-thin.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Semibold';
-  src: url('proxima-nova-semibold.eot');
-  src: url('proxima-nova-semibold.eot?#iefix') format('embedded-opentype'), url('proxima-nova-semibold.woff') format('woff'), url('proxima-nova-semibold.ttf') format('truetype'), url('proxima-nova-semibold.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-semibold/proxima-nova-semibold.eot');
+  src: url('fonts/proxima-nova-semibold/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-semibold/proxima-nova-semibold.woff') format('woff'), url('fonts/proxima-nova-semibold/proxima-nova-semibold.ttf') format('truetype'), url('fonts/proxima-nova-semibold/proxima-nova-semibold.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Bold';
-  src: url('proxima-nova-bold.eot');
-  src: url('proxima-nova-bold.eot?#iefix') format('embedded-opentype'), url('proxima-nova-bold.woff') format('woff'), url('proxima-nova-bold.ttf') format('truetype'), url('proxima-nova-bold.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-bold/proxima-nova-bold.eot');
+  src: url('fonts/proxima-nova-bold/proxima-nova-bold.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-bold/proxima-nova-bold.woff') format('woff'), url('fonts/proxima-nova-bold/proxima-nova-bold.ttf') format('truetype'), url('fonts/proxima-nova-bold/proxima-nova-bold.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Extrabld';
-  src: url('proxima-nova-extrabold.eot');
-  src: url('proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'), url('proxima-nova-extrabold.woff') format('woff'), url('proxima-nova-extrabold.ttf') format('truetype'), url('proxima-nova-extrabold.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-extrabold/proxima-nova-extrabold.eot');
+  src: url('fonts/proxima-nova-extrabold/proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-extrabold/proxima-nova-extrabold.woff') format('woff'), url('fonts/proxima-nova-extrabold/proxima-nova-extrabold.ttf') format('truetype'), url('fonts/proxima-nova-extrabold/proxima-nova-extrabold.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Black';
-  src: url('proxima-nova-black.eot');
-  src: url('proxima-nova-black.eot?#iefix') format('embedded-opentype'), url('proxima-nova-black.woff') format('woff'), url('proxima-nova-black.ttf') format('truetype'), url('proxima-nova-black.svg#ywftsvg') format('svg');
+  src: url('fonts/proxima-nova-black/proxima-nova-black.eot');
+  src: url('fonts/proxima-nova-black/proxima-nova-black.eot?#iefix') format('embedded-opentype'), url('fonts/proxima-nova-black/proxima-nova-black.woff') format('woff'), url('fonts/proxima-nova-black/proxima-nova-black.ttf') format('truetype'), url('fonts/proxima-nova-black/proxima-nova-black.svg#ywftsvg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -71,13 +71,13 @@ input:focus {
 }
 
 h1 {
-  font-family: "ProximaNova-Light";
+  font-family: "ProximaNova-Thin";
   font-size: 50px;
   color: #fff;
 }
 
 h2 {
-  font-family: "ProximaNova-Light";
+  font-family: "ProximaNova-Thin";
   font-size: 45px;
   color: #fff;
 }
@@ -948,27 +948,27 @@ footer .footer-bottom ul li a:hover+.hover {
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(1) article .single-product:hover {
-  background: url(assets/products-hov-01.png) no-repeat center center;
+  background: url(assets/products-01-hov.png) no-repeat center center;
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(2) article .single-product:hover {
-  background: url(assets/products-hov-02.png) no-repeat center center;
+  background: url(assets/products-02-hov.png) no-repeat center center;
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(3) article .single-product:hover {
-  background: url(assets/products-hov-03.png) no-repeat center center;
+  background: url(assets/products-03-hov.png) no-repeat center center;
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(4) article .single-product:hover {
-  background: url(assets/products-hov-04.png) no-repeat center center;
+  background: url(assets/products-04-hov.png) no-repeat center center;
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(5) article .single-product:hover {
-  background: url(assets/products-hov-05.png) no-repeat center center;
+  background: url(assets/products-05-hov.png) no-repeat center center;
 }
 
 .products-categories .row>.col-xs-6:nth-of-type(6) article .single-product:hover {
-  background: url(assets/products-hov-06.png) no-repeat center center;
+  background: url(assets/products-06-hov.png) no-repeat center center;
 }
 
 .products-categories article .dots {
@@ -1117,4 +1117,335 @@ footer .footer-bottom ul li a:hover+.hover {
 
 .more-content .close-content:hover {
   background: url(assets/close-hov.png) no-repeat center center;
+}
+
+/* ---- dashboard app styles ---- */
+.dashboard-app .app-header {
+    border-bottom: 1px solid #cecece;
+}
+
+.dashboard-app .app-header-left {
+  padding-top: 47px;
+  text-align: center;
+}
+
+.dashboard-app .app-header-right {
+  text-align: center;
+}
+
+.dashboard-app .app-header-left a {
+  color: #1ccabb;
+  border: 1px solid #1ccabb;
+  font-family: "ProximaNova-Semibold";
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.dashboard-app .app-header-right .app-nav {
+  margin-top: 30px;
+}
+
+.dashboard-app .app-header-right .app-nav > li {
+  vertical-align: top;
+  margin-right: 10px;
+  text-align: center;
+  font-family: "ProximaNova-Semibold";
+}
+
+.dashboard-app .app-header-right .app-nav > li:last-of-type {
+  margin-right: 0;
+}
+
+.dashboard-app .app-header-right .app-nav > li > a {
+  color: #1ccabb;
+}
+
+.dashboard-app .app-header-right .app-nav .hover {
+  width: 16px;
+  height: 3px;
+  background-color: #595959;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+}
+
+.dashboard-app .app-header-right .app-nav > li > a:hover{
+  color: #595959;
+}
+
+.dashboard-app .app-header-right .app-nav > li > a:hover + .hover {
+  visibility: visible;
+}
+
+.dashboard-app .app-header-right .app-dropdown li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.dashboard-app .app-header-right .app-dropdown li:last-of-type {
+    border-bottom: none;
+}
+
+.dashboard-app .app-header-right .app-dropdown li a {
+  color: #757575;
+  font-family: "ProximaNova-Light";
+}
+
+.dashboard-app .app-header-right .app-dropdown li a:hover, .dashboard-app .app-header-right .app-dropdown li a:focus {
+  color: #54acde;
+}
+
+.dashboard-app .app-container {
+  padding: 20px 0 30px;
+  position: relative;
+}
+
+.dashboard-app .app .nav-tabs {
+  border: none;
+  display: inline-block;
+  position: relative;
+  z-index: 20;
+  margin-top: 20px;
+}
+
+.dashboard-app .app .nav-tabs li {
+  display: inline-block;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.dashboard-app .app .nav-tabs li.active a {
+  border-color: #cecece;
+  color: #595959;
+}
+
+.dashboard-app .app .nav-tabs li a {
+  font-size: 10px;
+  font-family: "ProximaNova-Bold";
+  color: #929397;
+  width: 140px;
+  border-radius: 7px;
+}
+
+.dashboard-app .app .nav-tabs li img {
+  display: block;
+  width: 34px;
+  margin: 0 auto 6px;
+}
+
+.dashboard-app .app {
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  position: relative;
+}
+
+.dashboard-app .app .top {
+  height: 7px;
+  background-color: #1ccabb;
+  border-radius: 8px 8px 0 0;
+}
+
+.dashboard-app .app h2 {
+  color: #595959;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.dashboard-app .app .tab-content {
+  vertical-align: top;
+
+}
+
+.dashboard-app .app .pane-top {
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0 40px;
+}
+
+.dashboard-app .app .pane-top img {
+  width: 100px;
+}
+
+.dashboard-app .app .pane-top p {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  margin-bottom: 25px;
+}
+
+.dashboard-app .app .pane-top .row .col-sm-8 p:nth-of-type(2n + 1) {
+  font-family: "ProximaNova-Thin";
+}
+
+.dashboard-app .app .pane-top .row .col-sm-8 p:nth-of-type(2n) {
+  margin-left: 10px;
+  font-family: "ProximaNova-Semibold";
+}
+
+.dashboard-app .app .pane-bottom {
+  padding: 25px 0 0;
+}
+
+.dashboard-app .app .pane-bottom .left-bottom {
+  margin-bottom: 40px;
+}
+
+.dashboard-app .app .pane-bottom p {
+  color: #595959;
+  font-family: "ProximaNova-Light";
+  font-size: 20px;
+  max-width: 200px;
+  margin: 12px auto 25px;
+}
+
+.dashboard-app .app .pane-bottom p span {
+  font-family: "ProximaNova-Bold";
+  color: #54acde;
+}
+
+.dashboard-app .app .pane-bottom .alert-btn {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 3px;
+  color: #54acde;
+  border: 1px solid #54acde;
+  font-family: "ProximaNova-Semibold";
+  transition: 0.2s;
+}
+
+.dashboard-app .app .pane-bottom .alert-btn:hover, .dashboard-app .app .pane-bottom .alert-btn:focus {
+  color: #1ccabb;
+  border-color: #1ccabb;
+}
+
+.dashboard-app .app .pane-bottom .calendar-btn {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #54acde;
+  font-family: "ProximaNova-Semibold";
+  margin-top: 35px;
+  transition: 0.2s;
+}
+
+.dashboard-app .app .pane-bottom .calendar-btn:hover, .dashboard-app .app .pane-bottom .calendar-btn:focus {
+  background-color: #1ccabb;
+}
+
+.dashboard-app .app .app-footer {
+  margin-top: 60px;
+}
+
+.dashboard-app .app .app-footer ul li {
+  padding: 0 12px;
+  border-right: 1px solid #cecece;
+}
+
+.dashboard-app .app .app-footer ul li a {
+  font-family: "ProximaNova-Thin";
+  color: #757575;
+  font-size: 12px;
+}
+
+.dashboard-app .app .app-footer ul > li:last-of-type {
+  border-right: none;
+}
+
+.dashboard-app .app .app-footer ul li a:hover, .dashboard-app .app .app-footer ul li a:focus {
+  color: #54acde;
+}
+
+/* ---- clients banner styles ---- */
+.clients-banner .banner-content-wrapper .banner-content {
+  margin-top: 10%;
+}
+
+.clients-banner .banner-content h1 {
+  font-family: "ProximaNova-Bold";
+  max-width: 1000px;
+}
+
+.clients-banner .banner-content img {
+  width: 84px;
+}
+
+/* ---- testimonials styles ---- */
+.testimonials {
+  padding: 30px 0;
+}
+
+.testimonials h2 {
+  color: #595959;
+  max-width: 1000px;
+  padding-bottom: 25px;
+  margin: 0 auto 50px;
+  border-bottom: 2px solid #e4e4e4;
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,0.2);
+  font-size: 28px;
+}
+
+.testimonials .testimonials-articles {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonials-articles img {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #1ccabb;
+  border-radius: 50%;
+}
+
+.testimonials .testimonials-articles q, .testimonials .testimonials-articles p {
+  max-width: 270px;
+}
+
+.testimonials .testimonials-articles p:first-of-type {
+  font-family: "ProximaNova-Semibold";
+  margin: 0;
+}
+
+.testimonials .testimonials-articles p:nth-of-type(2) {
+  margin-bottom: 10px;
+}
+
+.testimonials .testimonials-articles q {
+  display: inline-block;
+  font-family: "ProximaNova-Light";
+  font-style: italic;
+}
+
+.testimonials .testimonials-articles article {
+  margin-bottom: 50px;
+}
+
+/* ---- clients partners styles ---- */
+.clients-partners {
+  padding: 60px 0;
+  background-color: #F5F5F5;
+}
+
+.clients-partners h2 {
+  color: #595959;
+  max-width: 1000px;
+  padding-bottom: 25px;
+  margin: 0 auto 50px;
+  border-bottom: 2px solid #e4e4e4;
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,0.2);
+  font-size: 28px;
+}
+
+.clients-partners a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clients-partners a:hover img, .clients-partners a:focus img {
+  opacity: 0.7;
+}
+
+.clients-partners a img {
+  margin-bottom: 30px;
 }

@@ -83,17 +83,464 @@
     </header>
     <main>
       <section class="dashboard-app">
-        <div class="container">
-          <article class="app-header">
-            <img src="img/app-logo.png" alt="">
-            <a href="#">Settings/Administration</a>
-            <ul>
-              <li><a href="#">Hi "Laurent"</a></li>
-              <li><a href="#">Alerts</a></li>
-              <li><a href="#">Support</a></li>
-            </ul>
+          <article class="app-header clearfix">
+            <div class="container">
+              <div class="app-header-left">
+                <img src="img/app-logo.png" alt="">
+                <a href="#">Settings/Administration</a>
+              </div>
+              <div class=" app-header-right">
+                <ul class="app-nav list-inline">
+                  <li>
+                    <a href="#">Hi "Laurent"</a>
+                    <div class="hover"></div>
+                    <ul class="app-dropdown list-unstyled text-center">
+                      <li><a href="#">My account</a></li>
+                      <li><a href="#">My requests</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Alerts</a>
+                    <div class="hover"></div>
+                  </li>
+                  <li>
+                    <a href="#">Support</a>
+                    <div class="hover"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </article>
-        </div>
+          <article class="app-container" style="background:#f9f9f9;">
+            <div class="container">
+              <div class="app" style="background:#fff;">
+                <div class="top"></div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs text-center" role="tablist">
+                  <li role="presentation" class="active">
+                    <a href="#dashboard" aria-controls="home" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-01.png" alt="">
+                      dashboard
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#company" aria-controls="profile" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-02.png" alt="">
+                      company
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#library" aria-controls="messages" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-03.png" alt="">
+                      library
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#employees" aria-controls="settings" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-04.png" alt="">
+                      employees
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#calendar" aria-controls="settings" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-05.png" alt="">
+                      calendar
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#procedures" aria-controls="settings" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-06.png" alt="">
+                      procedures
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#asset-management" aria-controls="settings" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-01.png" alt="">
+                      asset management
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#reports" aria-controls="settings" role="tab" data-toggle="tab" class="text-uppercase">
+                      <img src="img/products-02.png" alt="">
+                      reports
+                    </a>
+                  </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="dashboard">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>  <!-- tab panel -->
+                  <div role="tabpanel" class="tab-pane" id="company">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="library">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="employees">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="calendar">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="procedures">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="asset-management">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="reports">
+                    <article class="pane-top">
+                      <h2>My information</h2>
+                      <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                          <p class="text-right">Name:</p> <p>Laurent Pellet</p>
+                          <p class="text-right">Username:</p> <p>laurent.pellet</p>
+                          <p class="text-right">Employee type:</p> <p>Regular Employees</p>
+                          <p class="text-right">Employee category:</p> <p>Management</p>
+                          <p class="text-right">Department:</p> <p>Finance</p>
+                          <p class="text-right">Station:</p> <p>HardOffice CA</p>
+                          <p class="text-right">Last Login on:</p> <p>November 26, 2014 at 14:25pm</p>
+                        </div>
+                        <div class="col-sm-4 col-md-6 text-center">
+                          <img src="img/app-logo.png" alt="">
+                        </div>
+                      </div>   <!-- row -->
+                    </article>
+                    <article class="pane-bottom text-center">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <article class="left-bottom">
+                            <img src="img/alert.png" alt="">
+                            <p>You have <span>2 unread</span> inbox messages</p>
+                            <a href="#" class="alert-btn">Alerts</a>
+                          </article>
+                        </div>  <!-- col -->
+                        <div class="col-sm-6">
+                          <article class="right-bottom">
+                            <img src="img/calendar.png" alt="">
+                            <div class="text-center">
+                              <a href="#" class="calendar-btn">Calendar</a>
+                            </div>
+                          </article>
+                        </div>   <!-- col -->
+                      </div>    <!-- row -->
+                      <div class="app-footer text-center">
+                        <ul class="list-inline">
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
       </section>
     </main>
     <footer>
