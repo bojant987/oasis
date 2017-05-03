@@ -194,7 +194,21 @@
   .clients-partners h2 {
     font-size: 45px;
   }
-
+  /* ---- why us banner styles ---- */
+  /* ---- why oasis styles ---- */
+  .why-oasis .circle-wrapper {
+    margin: 20px 20px;
+  }
+  .why-oasis .links > img {
+    width: 100px;
+    top: -10%;
+  }
+  .why-oasis h2 {
+    font-size: 45px;
+  }
+  .why-oasis .opened-link article {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -353,6 +367,11 @@
   .clients-partners a {
     margin: 0 20px;
   }
+  /* ---- why us banner styles ---- */
+  /* ---- why oasis styles ---- */
+  .why-oasis .circle-wrapper {
+    margin: 30px 60px;
+  }
 
 }
 
@@ -468,6 +487,69 @@
   .clients-partners a {
     margin: 0 40px;
   }
+  /* ---- why us banner styles ---- */
+  /* ---- why oasis styles ---- */
+  .why-oasis .circle-wrapper {
+    margin: 0;
+  }
+  .why-oasis .links {
+    text-align: left;
+    margin-bottom: 320px;
+  }
+  .why-oasis .links .dots img {
+    width: auto;
+    position: absolute;
+  }
+  .why-oasis .links > img {
+    top: 35%;
+  }
+  .why-oasis .links img {
+    width: 200px;
+  }
+  .why-oasis .links > img {
+    width: 100px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(3) a:nth-of-type(2) {
+    position: absolute;
+    top: 50%;
+    left: 112%;
+    transform: translateY(-50%);
+    width: 300px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(1) {
+    top: 20px;
+    left: 30px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(2) {
+    top: 240px;
+    left: 60px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(3) {
+    top: 160px;
+    left: 80px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(4) {
+    top: -40px;
+    left: 80px;
+  }
+  .why-oasis .links .dots img:nth-of-type(1) {
+    top: 30%;
+    left: 27%;
+  }
+  .why-oasis .links .dots img:nth-of-type(2) {
+    top: 68%;
+    left: 45%;
+    transform: rotate(-10deg);
+  }
+  .why-oasis .links .dots img:nth-of-type(3) {
+    top: 65%;
+    left: 54%;
+  }
+  .why-oasis .links .dots img:nth-of-type(4) {
+    top: 20%;
+    left: 56%;
+  }
+
 }
 
 @media (min-width: 1600px) {
@@ -543,4 +625,42 @@
   }
   /* ---- testimonials styles ---- */
   /* ---- clients partners styles ---- */
+  /* ---- why us banner styles ---- */
+  /* ---- why oasis styles ---- */
+  .why-oasis .links > img {
+    width: 160px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(1) {
+    top: 20px;
+    left: 135px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(2) {
+    top: 300px;
+    left: 130px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(3) {
+    top: 240px;
+    left: 210px;
+  }
+  .why-oasis .circle-wrapper:nth-of-type(4) {
+    top: -40px;
+    left: 260px;
+  }
+  .why-oasis .links .dots img:nth-of-type(1) {
+    top: 32%;
+    left: 29%;
+  }
+  .why-oasis .links .dots img:nth-of-type(2) {
+    top: 85%;
+    left: 43%;
+    transform: rotate(0deg);
+  }
+  .why-oasis .links .dots img:nth-of-type(3) {
+    top: 87%;
+    left: 54%;
+  }
+  .why-oasis .links .dots img:nth-of-type(4) {
+    top: 20%;
+    left: 57%;
+  }
 }
