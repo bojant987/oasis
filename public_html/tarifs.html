@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Bojan Todorovic">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Products</title>
+        <title>Tarifs</title>
 
         <!-- core css -->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- custom css -->
-        <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
+        <link href="css/nouislider.css" rel="stylesheet" type="text/css"/>
         <!-- core css -->
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
@@ -84,169 +84,158 @@
             </nav>
         </header>
         <main>
-            <section class="banner">
+            <section class="tarifs-banner banner">
                 <img src="img/banner-01.jpg" alt=""/>
                 <div class="banner-content-wrapper">
                     <div class="banner-content text-center">
                         <img src="img/logo-small.png" alt="">
-                        <h1>Streamline HR with your entire team with Oasis HR</h1>
+                        <h1>Lorem ipsum dolor sit amet</h1>
                         <div class="hr-line"></div>
                         <p>HR software for companies where people matter</p>
                     </div>
                 </div>
-            </section>   <!-- banner -->
-            <section class="products-categories text-center">
+            </section>   <!-- tarifs banner -->
+            <section class="tarifs-employees text-center">
                 <div class="container">
-                    <h2>Simple, intuitive HR software focusing on people, not paper.</h2>
-                    <div class="line"></div>
+                    <h4 class="text-center">Choose the number of employees</h4>
+                    <div id="range"></div>
+                    <form class="range-form">
+                        <input type="text" name="range" value="0"><span>Employees</span>
+                        <p class="range-error">*Please enter a valid number</p>
+                    </form>
                     <p>
-                        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse turpis risus, scelerisque vel quam eu
                     </p>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                                <img src="img/dots.png" alt="" class="dots hidden-xs">
-                            </article>
-                        </div>  <!-- col -->
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                                <img src="img/dots.png" alt="" class="dots hidden-xs">
-                            </article>
-                        </div>  <!-- col -->
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                                <img src="img/dots.png" alt="" class="dots hidden-xs">
-                            </article>
-                        </div>  <!-- col -->
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                                <img src="img/dots.png" alt="" class="dots hidden-xs">
-                            </article>
-                        </div>  <!-- col -->
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                                <img src="img/dots.png" alt="" class="dots hidden-xs">
-                            </article>
-                        </div>  <!-- col -->
-                        <div class="col-xs-6 col-sm-4 col-md-2">
-                            <article>
-                                <a href="#" class="single-product"></a>
-                                <p class="popup-box text-uppercase text-center"><a href="#">reports</a></p>
-                            </article>
-                        </div>  <!-- col -->
-                    </div>    <!-- row -->
-                </div>   <!-- container -->
-            </section>   <!-- products categories -->
-            <section class="products-showcase" style="background:#14a69c;">
+                    <h2>Demo: <span class="price">69$</span>/mois</h2>
+                </div>  <!-- container -->
+            </section>   <!-- tarifs employees -->
+            <section class="tarifs-categories" style="background:#f5f5f5;">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div class="wrapper">
-                                <article>
-                                    <ul class="bxslider products-slider">
-                                        <li><img src="img/products-slider-01.jpg" alt=""></li>
-                                        <li><img src="img/products-slider-01.jpg" alt=""></li>
-                                        <li><img src="img/products-slider-01.jpg" alt=""></li>
-                                    </ul>
-                                    <button class="slide-prev slide-btn"></button>
-                                    <button class="slide-next slide-btn"></button>
-                                </article>
-                            </div>
-                        </div>   <!-- col -->
-                        <div class="col-md-4 col-md-offset-1">
-                            <article>
-                                <img src="img/logo-small.png" alt="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
-                                    ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum
-                                    dolor sit amet, consectetur adipiscing elit lorem ipsum dolor
-                                    sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                                <a href="#" class="read-more">En savoir plus</a>
-                            </article>
-                        </div>   <!-- col -->
-                    </div>   <!-- row -->
-                </div>   <!-- container -->
-                <section class="more-content" style="background:#595959;">
-                    <div class="container">
+                    <article>
                         <div class="row">
-                            <div class="col-sm-6 col-md-3">
-                                <article>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <div class="line"></div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit lorem ipsum dolor
-                                        sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
-                                    </p>
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Mes dossiers</p></a>
+                                    </div>
                                 </article>
                             </div>  <!-- col -->
-                            <div class="col-sm-6 col-md-3">
-                                <article>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <div class="line"></div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit lorem ipsum dolor
-                                        sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
-                                    </p>
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Conges</p></a>
+                                    </div>
                                 </article>
                             </div>  <!-- col -->
-                            <div class="col-sm-6 col-md-3">
-                                <article>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <div class="line"></div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit lorem ipsum dolor
-                                        sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
-                                    </p>
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Employés</p></a>
+                                    </div>
                                 </article>
                             </div>  <!-- col -->
-                            <div class="col-sm-6 col-md-3">
-                                <article>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <div class="line"></div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit lorem ipsum dolor
-                                        sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
-                                    </p>
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Notes de frais</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Entretien professional</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category text-center">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Planning</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Rapports</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Evaluation de competence</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Alerts</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Modèle de lettres et procédures</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>Librairie sociale</p></a>
+                                    </div>
+                                </article>
+                            </div>  <!-- col -->
+                            <div class="col-sm-4">
+                                <article class="tarifs-single-category">
+                                    <a href="#"><div class="tarifs-icon"></div></a>
+                                    <div>
+                                        <a href="#"><p>La communication / blog interne</p></a>
+                                    </div>
                                 </article>
                             </div>  <!-- col -->
                         </div>  <!-- row -->
-                        <a href="#" class="demo-btn text-uppercase text-center">demo</a>
-                        <a href="#" class="close-content"></a>
-                    </div>   <!-- container -->
-                </section>   <!-- more content -->
-            </section>   <!-- products showcase -->
+                    </article>
+                </div>   <!-- container -->
+            </section>   <!-- tarifs categories -->
+            <section class="partners text-center">
+                <div class="container">
+                    <a href="#">
+                        <img src="img/partners-01.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/partners-02.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/partners-03.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/partners-04.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/partners-05.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/partners-06.png" alt="">
+                    </a>
+                </div>   <!-- container -->
+            </section>   <!-- partners -->
         </main>
         <footer>
             <div class="footer-top" style="background: #595959;">
@@ -350,7 +339,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!-- custom js -->
-        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/nouislider.min.js"></script>
         <!-- core js -->
         <script src="js/main.js"></script>
     </body>

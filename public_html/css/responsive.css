@@ -3,15 +3,22 @@
     width: 450px;
   }
   .contact-form .telephone {
-    font-size: 34px;
+    font-size: 30px;
   }
   .testimonials .testimonials-articles img {
     width: 155px;
+  }
+  .tarifs-categories .col-sm-4 {
+    width: 50%;
+    float: left;
   }
 }
 
 @media (min-width: 768px) {
   /* ---- global styles ---- */
+  h2 {
+    font-size: 45px;
+  }
   /* ---- header styles ---- */
   header .navbar-default .scroll-brand img {
     height: 60px;
@@ -35,9 +42,6 @@
   /* ---- what we do styles ---- */
   .what-we-do {
     padding-top: 30px;
-  }
-  .what-we-do h2 {
-    font-size: 45px;
   }
   .what-we-do .popup-box {
     bottom: 50%;
@@ -67,7 +71,7 @@
     width: 500px;
   }
   .contact-form .telephone {
-    font-size: 40px;
+    font-size: 34px;
   }
   .contact-form .has-success .custom-feedback {
     top: 60%;
@@ -95,9 +99,6 @@
   .products-categories {
     padding: 50px 0;
   }
-  .products-categories h2 {
-    font-size: 45px;
-  }
   .products-categories .row>.col-xs-6:nth-of-type(3) article .dots {
     display: none;
   }
@@ -110,7 +111,7 @@
     line-height: 36px;
     bottom: -25px;
     visibility: hidden;
-    transition: 0;
+    transition: 0s;
   }
   .products-categories article .single-product {
     width: 130px;
@@ -132,9 +133,6 @@
   }
   /* ---- more content styles ---- */
   /* ---- dashboard app styles ---- */
-  .dashboard-app .app h2 {
-    font-size: 45px;
-  }
   .dashboard-app .app-header-left {
     float: left;
   }
@@ -144,7 +142,7 @@
   .dashboard-app .app-header-left a {
     margin-left: 30px;
   }
-  .dashboard-app .app-header-right .app-nav > li {
+  .dashboard-app .app-header-right .app-nav>li {
     margin-right: 20px;
   }
   .dashboard-app .app {
@@ -184,30 +182,30 @@
   }
   /* ---- clients banner styles ---- */
   /* ---- testimonials styles ---- */
-  .testimonials h2 {
-    font-size: 45px;
-  }
   .testimonials .testimonials-articles img {
     width: 120px;
   }
   /* ---- clients partners styles ---- */
-  .clients-partners h2 {
-    font-size: 45px;
-  }
   /* ---- why us banner styles ---- */
   /* ---- why oasis styles ---- */
   .why-oasis .circle-wrapper {
     margin: 20px 20px;
   }
-  .why-oasis .links > img {
+  .why-oasis .links>img {
     width: 100px;
     top: -10%;
   }
-  .why-oasis h2 {
-    font-size: 45px;
-  }
   .why-oasis .opened-link article {
     margin-bottom: 0;
+  }
+  /* ---- tarifs employees styles ---- */
+  /* ---- tarifs categories styles ---- */
+  .tarifs-categories .col-sm-4 {
+    width: 33.3333333333333333%;
+    float: left;
+  }
+  .tarifs-categories a p {
+    max-width: 120px;
   }
 }
 
@@ -231,7 +229,7 @@
   header .navbar-default .navbar-nav>li>a {
     font-size: 16px;
   }
-  header .navbar-default .navbar-nav>li>a:hover+.hover {
+  header .navbar-default .navbar-nav>li>a:hover+.hover, header .navbar-default .navbar-nav>li>a:focus+.hover, header .navbar-default .navbar-nav>li.active .hover {
     display: block;
   }
   header .navbar-default .navbar-nav>li.signup {
@@ -314,6 +312,9 @@
     top: 60%;
     left: 45%;
   }
+  .contact-form .telephone {
+    font-size: 40px;
+  }
   /* ---- demo styles ---- */
   /* ---- products categories styles ---- */
   .products-categories article .single-product {
@@ -351,7 +352,7 @@
   .dashboard-app .app-header-left a {
     margin-left: 60px;
   }
-  .dashboard-app .app-header-right .app-nav > li {
+  .dashboard-app .app-header-right .app-nav>li {
     margin-right: 60px;
   }
   .dashboard-app .app {
@@ -372,7 +373,11 @@
   .why-oasis .circle-wrapper {
     margin: 30px 60px;
   }
-
+  /* ---- tarifs employees styles ---- */
+  /* ---- tarifs categories styles ---- */
+  .tarifs-categories a p {
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -500,13 +505,13 @@
     width: auto;
     position: absolute;
   }
-  .why-oasis .links > img {
+  .why-oasis .links>img {
     top: 35%;
   }
   .why-oasis .links img {
     width: 200px;
   }
-  .why-oasis .links > img {
+  .why-oasis .links>img {
     width: 100px;
   }
   .why-oasis .circle-wrapper:nth-of-type(3) a:nth-of-type(2) {
@@ -549,7 +554,8 @@
     top: 20%;
     left: 56%;
   }
-
+  /* ---- tarifs employees styles ---- */
+  /* ---- tarifs categories styles ---- */
 }
 
 @media (min-width: 1600px) {
@@ -627,7 +633,7 @@
   /* ---- clients partners styles ---- */
   /* ---- why us banner styles ---- */
   /* ---- why oasis styles ---- */
-  .why-oasis .links > img {
+  .why-oasis .links>img {
     width: 160px;
   }
   .why-oasis .circle-wrapper:nth-of-type(1) {
@@ -663,4 +669,6 @@
     top: 20%;
     left: 57%;
   }
+  /* ---- tarifs employees styles ---- */
+  /* ---- tarifs categories styles ---- */
 }
